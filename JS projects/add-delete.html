@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add-delete</title>
+</head>
+<body>
+    <div id="maindiv">
+        <h1>This is first heading</h1>
+        <h1 id="secondh1">This is second heading</h1>        
+        
+    </div>
+</body>
+</html>
+<script>
+    var maindiv=document.getElementById('maindiv')
+
+    var secondh1 = document.getElementById('secondh1')
+
+    maindiv.removeChild(secondh1)
+
+    // var newh1 = document.createElement('h1')
+
+    // var newh1text = document.createTextNode('this is third element')
+
+    // newh1.appendChild(newh1text)
+
+    // maindiv.appendChild(newh1)
+</script>
